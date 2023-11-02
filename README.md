@@ -175,7 +175,7 @@ console.log(myFunction('abcdefg'));
 </details>
 
 ---
-##### 8.Tulis fungsi yang menggunakan string sebagai argumen. String berisi substring 'adalah'. Kembalikan indeks 'adalah'.
+##### 8.Tulis fungsi yang menggunakan string sebagai argumen. String berisi substring 'is'. Kembalikan indeks 'is'.
 
 
 ```javascript
