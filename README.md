@@ -246,6 +246,9 @@ function myFunction(a) {
 }
 console.log(myFunction('abcdefgh'));
 ```
+
+</details>
+
 ---
 
 ##### 11.Tulislah fungsi yang menggunakan dua bilangan (a dan b) sebagai argumen. Kembalikan b persen dari a
@@ -426,25 +429,75 @@ console.log(myFunction(10, 100))
 </details>
 
 ---
-##### 18.Tulislah fungsi yang menggunakan dua bilangan (a dan b) sebagai argumen. Jika a lebih kecil dari b, bagilah a dengan b. Jika tidak, kalikan kedua angka tersebut. Kembalikan nilai yang dihasilkan
+##### 18.Tulislah fungsi yang menggunakan angka (a) sebagai argumen. Bulatkan a sampai angka ke-2 setelah koma. Kembalikan angka yang dibulatkan
 
 ```javascript
-function myFunction(a,b) {
+function myFunction(a) {
   //code
   return 
 }
-myFunction(10, 100)  //expected 0.1
-myFunction(90.45)  //expected 4050
+myFunction(2.12397) //expected 2.12
+myFunction(3.136)  //expected 3.14
 ```
 
 <details><summary><b>Solution</b></summary>
 
 ```javascript
-function myFunction(a, b) {
-    return a < b ? a / b : a * b
+function myFunction(a) {
+    return Number(a.toFixed(2))
 
 }
-console.log(myFunction(10, 100))
+console.log(myFunction(2.12397))
+
+```
+
+</details>
+
+---
+##### 19.Tulislah fungsi yang menggunakan angka (a) sebagai argumen. Pisahkan a menjadi masing-masing digit dan kembalikan dalam array.
+
+```javascript
+function myFunction(a) {
+  //code
+  return 
+}
+myFunction(10) //expected [1,0]
+myFunction(931)  //expected [9,3,1]
+```
+
+<details><summary><b>Solution</b></summary>
+
+```javascript
+function myFunction(a) {
+    return a.toString().split('').map((digit) => Number(digit))
+
+}
+console.log(myFunction(10))
+
+```
+
+</details>
+
+---
+##### 20.Tulislah fungsi yang menggunakan angka (a) sebagai argumen. Pisahkan a menjadi masing-masing digit dan kembalikan dalam array.
+
+```javascript
+function myFunction(a) {
+  //code
+  return 
+}
+myFunction(10) //expected [1,0]
+myFunction(931)  //expected [9,3,1]
+```
+
+<details><summary><b>Solution</b></summary>
+
+```javascript
+function myFunction(a) {
+    return a.toString().split('').map((digit) => Number(digit))
+
+}
+console.log(myFunction(10))
 
 ```
 
