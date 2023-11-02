@@ -282,13 +282,13 @@ function myFunction(arr) {
   return arr.sort(function(a, b) {
    return b-a;
   });
-return arr
+return arr;
 }
 
 //cara sederhana
   return arr.sort((a, b) => b - a)
 
-console.log(myFunction(['b', 'c', 'd', 'a'])
+console.log(myFunction([1,3,2]) 
 ```
 
 </details>
