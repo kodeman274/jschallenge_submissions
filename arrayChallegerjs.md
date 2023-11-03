@@ -40,7 +40,8 @@ console.log(myFunction([1,2,3,4,5],3);
 
 </details>
 
-##### 2.Tulis fungsi yang menggunakan array (a) dan nilai (n) sebagai argumen. Kembalikan elemen ke-n dari 'a'
+##### 2.Tulis fungsi yang menggunakan array (a) sebagai argumen. Hapus 3 elemen pertama 'a'. Kembalikan hasilnya
+
 
 ```javascript
 function myFunction(a) {
