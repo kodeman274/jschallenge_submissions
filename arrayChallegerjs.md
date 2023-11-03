@@ -207,7 +207,7 @@ function myFunction(a){
   //code
   return
 }
-myFunction([1,-2,2,4]) //expected 2
+myFunction([1,-2,2,-4]) //expected 2
 myFunction([0,9,1]) //expected 0
 
 ```
@@ -230,7 +230,7 @@ function myFunction(a) {
    return a.filter((el) => el < 0).length;
 
 
-console.log(myFunction([1,-2,2,4]))
+console.log(myFunction([1,-2,2,-4]))
 ```
 
 </details>
