@@ -28,7 +28,7 @@ function myFunction(a,n) {
 
 // cara sederhana
 return a[n-1]
-  return
+  
 }
 
 console.log(myFunction([1,2,3,4,5],3);
