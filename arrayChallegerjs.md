@@ -295,3 +295,154 @@ console.log(myFunction([1,3,2])
 </details>
 
 ---
+##### 11.Tulis fungsi yang menggunakan array angka sebagai argumen. Ini harus mengembalikan jumlah angka.
+
+```javascript
+function myFunction(a){
+  //code
+  return
+}
+myFunction([10,100,40])  //expected 150
+myFunction([10,100,1000,1]) //expected 1111
+
+```
+
+<details><summary><b>Solution</b></summary>
+
+```javascript
+function myFunction(a) {
+  return a.reduce((acc, curr) => acc + curr, 0)
+}
+
+console.log(myFunction([10,100,40])
+```
+
+</details>
+
+---
+##### 12.Tulis fungsi yang menggunakan array angka sebagai argumen. Ini harus mengembalikan rata-rata angkanya.
+
+```javascript
+function myFunction(arr){
+  //code
+  return
+}
+myFunction([10,100,40])  //expected 150
+myFunction([10,100,1000,1]) //expected 370
+
+```
+
+<details><summary><b>Solution</b></summary>
+
+```javascript
+function myFunction(arr) {
+  const sum = arr.reduce((acc, curr) => acc + curr, 0);
+  if (arr.length ===0) {
+   return 0;
+  }
+return sum / arr.length;
+}
+
+// cara lebih sederhana
+return arr.reduce((acc, cur) => acc + cur, 0) / arr.length
+
+console.log(myFunction([10,100,40])
+```
+
+</details>
+
+---
+##### 13.Tulis fungsi yang menggunakan array string sebagai argumen. Kembalikan string terpanjang.
+
+```javascript
+function myFunction(arr){
+  //code
+  return
+}
+myFunction(['help', 'me'])  //expected 'help'
+myFunction(['I', 'need', 'candy']) //expected 'candy'
+
+```
+
+<details><summary><b>Solution</b></summary>
+
+```javascript
+function myFunction(arr) {
+  return arr.reduce((longets, curr) => (curr.length > longets.length) ? curr : longets, arr[0])
+
+}
+
+console.log(myFunction(['help', 'me'])
+```
+
+</details>
+
+---
+##### 14.Tulis fungsi yang menggunakan array sebagai argumen. Seharusnya mengembalikan nilai true jika semua elemen dalam array sama. Seharusnya mengembalikan false jika tidak.
+
+```javascript
+function myFunction(arr){
+  //code
+  return
+}
+myFunction([true, true, true, true]) //expected true
+myFunction(['10',10,10,10]) //expected false
+
+```
+
+<details><summary><b>Solution</b></summary>
+
+```javascript
+function myFunction(arr) {
+ if (arr.length === 0) {
+    return false; // Array kosong dianggap tidak semua elemen sama
+  }
+  
+  const firstElement = arr[0];
+  
+  for (let i = 1; i < arr.length; i++) {
+    if (arr[i] !== firstElement) {
+      return false; // Ketika ada elemen yang berbeda, mengembalikan false
+    }
+  }
+  
+  return true; // Jika semua elemen sama, mengembalikan true
+
+}
+// cara lebih sederhana
+return New set(arr).size === 1;
+
+console.log(myFunction([true, true, true, true])
+```
+
+</details>
+
+---
+##### 15.Tulis fungsi yang mengambil argumen sejumlah array yang berubah-ubah. Itu harus mengembalikan array yang berisi nilai semua array.
+
+```javascript
+function myFunction(...arrays){
+  //code
+  return
+}
+myFunction([1, 2, 3], [4, 5, 6]) //expected [1, 2, 3, 4, 5, 6]
+myFunction(['a', 'b', 'c'], [4, 5, 6]) //expected ['a', 'b', 'c', 4, 5, 6]
+
+```
+
+<details><summary><b>Solution</b></summary>
+
+```javascript
+function myFunction(...arrays) {
+   return [].concat(...arrays);
+
+}
+// cara lebih sederhana
+return arrays.flat()
+
+console.log(myFunction([1, 2, 3], [4, 5, 6]) 
+```
+
+</details>
+
+---
