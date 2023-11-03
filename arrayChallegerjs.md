@@ -446,3 +446,58 @@ console.log(myFunction([1, 2, 3], [4, 5, 6])
 </details>
 
 ---
+##### 16.Tulis fungsi yang menggunakan array objek sebagai argumen. Urutkan array berdasarkan properti b dalam urutan menaik. Kembalikan array yang diurutkan
+
+```javascript
+function myFunction(arr){
+  //code
+  return
+}
+myFunction([{a:1,b:2},{a:5,b:4}]) //expected [{a:1,b:2},{a:5,b:4}]
+myFunction([{a:2,b:10},{a:5,b:4}]) //expected [{a:5,b:4},{a:2,b:10}]
+
+```
+
+<details><summary><b>Solution</b></summary>
+
+```javascript
+function myFunction(arr) {
+   return arr.sort((a,b) => a.b - b.b)
+
+}
+console.log(myFunction([{a:1,b:2},{a:5,b:4}])
+```
+
+</details>
+
+---
+##### 17.Tulis fungsi yang menggunakan dua array sebagai argumen. Gabungkan kedua array dan hapus nilai duplikat. Urutkan hasil penggabungan dalam urutan menaik. Kembalikan array yang dihasilkan
+
+```javascript
+function myFunction(a,b){
+  //code
+  return
+}
+myFunction([1, 2, 3], [3, 4, 5]) //expected [ 1, 2, 3, 4, 5 ]
+myFunction([-10, 22, 333, 42], [-11, 5, 22, 41, 42]) //expected [ -11, -10, 5, 22, 41,  42, 333]
+
+```
+
+<details><summary><b>Solution</b></summary>
+
+```javascript
+function myFunction(a,b) {
+  const combinedArray = [...a,...b];
+  const uniqArray = Array.from(new Set(combinedArray));
+  return uniqArray.sort((x,y)=> x - y);
+
+}
+
+// cara sederhana
+  return [...new Set([...a, ...b])].sort((x, y) => x - y);
+
+console.log(myFunction([1, 2, 3], [3, 4, 5])
+
+</details>
+
+---
