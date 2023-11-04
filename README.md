@@ -360,10 +360,8 @@ function myFunction(a, b) {
   //code
   return 
 }
-myFunction('m', 'how many times does the character occur in this sentence?')
- //expected 2
-myFunction('h', 'how many times does the character occur in this sentence?')
- //expected 4
+myFunction('m', 'how many times does the character occur in this sentence?') //expected 2
+myFunction('h', 'how many times does the character occur in this sentence?') //expected 4
 ```
 
 <details><summary><b>Solution</b></summary>
