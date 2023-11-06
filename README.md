@@ -477,28 +477,3 @@ console.log(myFunction(10))
 </details>
 
 ---
-##### 20.Tulislah fungsi yang menggunakan angka (a) sebagai argumen. Pisahkan a menjadi masing-masing digit dan kembalikan dalam array.
-
-```javascript
-function myFunction(a) {
-  //code
-  return 
-}
-myFunction(10) //expected [1,0]
-myFunction(931)  //expected [9,3,1]
-```
-
-<details><summary><b>Solution</b></summary>
-
-```javascript
-function myFunction(a) {
-    return a.toString().split('').map((digit) => Number(digit))
-
-}
-console.log(myFunction(10))
-
-```
-
-</details>
-
----
