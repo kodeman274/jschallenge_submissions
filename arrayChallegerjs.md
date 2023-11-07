@@ -9,7 +9,6 @@
 
 ##### 1. Tulis fungsi yang menggunakan array (a) dan nilai (n) sebagai argumen. Kembalikan elemen ke-n dari 'a'
 
-
 ```javascript
 function myFunction(a, n) {
   //code
@@ -471,7 +470,7 @@ console.log(myFunction([{a:1,b:2},{a:5,b:4}])
 </details>
 
 ---
-##### 17.Tulis fungsi yang menggunakan dua array sebagai argumen. Gabungkan kedua array dan hapus nilai duplikat. Urutkan hasil penggabungan dalam urutan menaik. Kembalikan array yang dihasilkan
+##### 17.Tulis fungsi yang menggunakan dua array sebagai argumen. Gabung kedua array dan hapus nilai duplikat. Urutkan hasil penggabungan dalam urutan menaik. Kembalikan array yang dihasilkan
 
 ```javascript
 function myFunction(a,b){
