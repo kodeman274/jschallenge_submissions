@@ -11,7 +11,7 @@
 
 
 ```javascript
-function myFunction(a, b) {
+function myFunction(a,b) {
   //code
   return
 }
@@ -22,7 +22,7 @@ myFunction(1,10) //expected 11
 <details><summary><b>Solution</b></summary>
 
 ```javascript
-function myFunction(a, b) {
+function myFunction(a,b) {
   return a + b;
 }
 console.log(myFunction(1,10));
