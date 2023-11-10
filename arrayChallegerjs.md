@@ -473,7 +473,7 @@ console.log(myFunction([{a:1,b:2},{a:5,b:4}])
 ##### 17.Tulis fungsi yang menggunakan dua array sebagai argumen. Gabung kedua array dan hapus nilai duplikat. Urutkan hasil penggabungan dalam urutan menaik. Kembalikan array yang dihasilkan
 
 ```javascript
-function myFunction(a,b){
+function myFunction(a, b){
   //code
   return
 }
@@ -485,7 +485,7 @@ myFunction([-10, 22, 333, 42], [-11, 5, 22, 41, 42]) //expected [ -11, -10, 5, 2
 <details><summary><b>Solution</b></summary>
 
 ```javascript
-function myFunction(a,b) {
+function myFunction(a, b) {
   const combinedArray = [...a,...b];
   const uniqArray = Array.from(new Set(combinedArray));
   return uniqArray.sort((x,y)=> x - y);
