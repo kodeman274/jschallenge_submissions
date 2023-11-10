@@ -52,3 +52,56 @@ function isPalindrom(str) {
 </details>
 
 ---
+
+##### 2. Tulislah fungsi atau perulangan untuk fibonannacci 
+
+```javascript
+function generateFibonnacci(n) {
+
+  //code
+  return
+}
+console.log(generateFibonnacci(10)) expected 0,1,1,2,3,5,8,13
+```
+
+<details><summary><b>Solution</b></summary>
+
+```javascript
+function generateFibonnacci(n) {
+  let num_Fibonannacci = [];
+  let n1 = 0;
+  let n2 = 1;
+
+  for (let i = 0; i <= n; i++) {
+    num_Fibonannacci.push(n1);
+    let total = n1 + n2;
+    n1 = n2;
+    n2 = total;
+  }
+
+  return num_Fibonannacci;
+}
+console.log(generateFibonnacci(10))
+
+cara lain:
+// pakai spread operator dan perulangan
+let num_Fibonannacci = [];
+let n1 = 0;
+let n2 = 1;
+
+for (let i = 0; i <= 10; i++) {
+  if (i === 0 || i === 1) {
+    num_Fibonannacci = [...num_Fibonannacci, i];
+  } else {
+    let total = n1 + n2;
+    num_Fibonannacci = [...num_Fibonannacci, total];
+    n1 = n2;
+    n2 = total;
+  }
+}
+console.log(num_Fibonannacci);
+```
+
+</details>
+
+---
