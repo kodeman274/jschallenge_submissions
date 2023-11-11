@@ -105,3 +105,45 @@ console.log(num_Fibonannacci);
 </details>
 
 ---
+##### 3. Tulislah perulangan yang memisahkan angka genap dan ganjil sampai 100
+
+```javascript
+
+// menggunakan if else dan spread operator
+for() {
+
+  //code
+  
+}
+console.log({ num_Genap, num_Ganjil }); num_genap : 0,2,4,6,8,.., num_ganjil: 1,3,5,7,9,11,13,..
+```
+
+<details><summary><b>Solution</b></summary>
+
+```javascript
+
+// menggunakan if else dan spread operator
+
+ let num_Ganjil = [];
+ let num_Genap = [];
+ for (let i = 0; i <= 100; i++) {
+   if (i % 2 == 0) {
+     num_Genap = [...num_Genap, i];
+   } else {
+     num_Ganjil = [...num_Ganjil, i];
+   }
+ }
+console.log({ num_Genap, num_Ganjil })
+
+cara lain:
+// menggunakan ternary dan method push
+let num_Ganjil = [];
+let num_Genap = [];
+for (let i = 0; i <= 100; i++) {
+  i % 2 == 0 ? num_Genap.push(i) : num_Ganjil.push(i);
+}
+console.log({ num_Genap, num_Ganjil })```
+
+</details>
+
+---
