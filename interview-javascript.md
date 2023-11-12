@@ -142,8 +142,53 @@ let num_Genap = [];
 for (let i = 0; i <= 100; i++) {
   i % 2 == 0 ? num_Genap.push(i) : num_Ganjil.push(i);
 }
-console.log({ num_Genap, num_Ganjil })```
+console.log({ num_Genap, num_Ganjil })
+```
 
 </details>
 
 ---
+##### 4. Tulislah perulangan menampilkan bilangan prima
+
+```javascript
+
+// menggunakan if else dan spread operator
+for() {
+
+  //code
+  
+}
+console.log(num_Prima); expected 
+```
+
+<details><summary><b>Solution</b></summary>
+
+```javascript
+
+// menggunakan if else dan spread operator
+
+let num_Prima = [];
+for (let i = 1; i <= 100; i++) {
+  let bill = 0;
+  for (a = 1; a <= i; a++) {
+    if (i % a == 0) {
+      bill = bill + 1;
+    }
+  }
+
+  if (bill == 2) {
+    num_Prima = [...num_Prima, i];
+  }
+}
+
+console.log(num_Prima);
+
+``
+
+</details>
+
+---
+
+
+
+
