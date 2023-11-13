@@ -188,6 +188,77 @@ console.log(num_Prima);
 </details>
 
 ---
+##### 5. Tulislah perulangan yang menampilkan data array yang double
+
+```javascript
+
+// menggunakan if else dan spread operator
+const dataArrayy = [4, 6, 2, 1, , 52, 6, 3, 8, 1, 3, 4, 2];
+for() {
+
+  //code
+  
+}
+console.log(numArray);
+console.log(numCount); expected 
+```
+
+<details><summary><b>Solution</b></summary>
+
+```javascript
+
+const dataArray = [9, 3, 6, 4, 2, 5, 6, 3, 1, 2, 7, 8, 8, 6, 5, 22, 7];
+let num_Array = [];
+let num_Count = '';
+
+for (let i = 0; i < dataArray.length; i++) {
+  let tampil = false;
+
+  for (let a = 0; a < num_Array.length; a++) {
+    if (dataArray[i] == num_Array[a]) {
+      tampil = true;
+    }
+  }
+
+  if (!tampil) {
+    num_Array = [...num_Array, dataArray[i]];
+    let total_Muncul = 0;
+    for (e = 0; e < dataArray.length; e++) {
+      if (dataArray[i] == dataArray[e]) {
+        total_Muncul = total_Muncul + 1;
+      }
+    }
+    num_Count += `angka ${dataArray[i]} sebanyak ${total_Muncul} \n`;
+  }
+}
+console.log(num_Array);
+console.log(num_Array.length);
+console.log(num_Count);
+
+cara lain dengan sedikit memakai perulangan looping
+const dataArrayy = [4, 6, 2, 1, , 52, 6, 3, 8, 1, 3, 4, 2];
+
+const numCount = {};
+const numArray = [];
+
+for (let i = 0; i < dataArray.length; i++) {
+  const num = dataArray[i];
+
+  if (!numCount[num]) {
+    numCount[num] = 1;
+    numArray.push(num);
+  } else {
+    numCount[num]++;
+  }
+}
+
+console.log(numArray);
+console.log(numCount);
+``
+
+</details>
+
+---
 
 
 
