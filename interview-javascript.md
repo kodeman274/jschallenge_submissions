@@ -144,7 +144,6 @@ for (let i = 0; i <= 100; i++) {
 }
 console.log({ num_Genap, num_Ganjil })
 ```
-
 </details>
 
 ---
@@ -182,12 +181,12 @@ for (let i = 1; i <= 100; i++) {
 }
 
 console.log(num_Prima);
-
-``
+```
 
 </details>
 
 ---
+
 ##### 5. Tulislah perulangan yang menampilkan data array yang double
 
 ```javascript
