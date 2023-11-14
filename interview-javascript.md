@@ -191,7 +191,6 @@ console.log(num_Prima);
 
 ```javascript
 
-// menggunakan if else dan spread operator
 const dataArrayy = [4, 6, 2, 1, , 52, 6, 3, 8, 1, 3, 4, 2];
 for() {
 
@@ -253,8 +252,36 @@ for (let i = 0; i < dataArray.length; i++) {
 
 console.log(numArray);
 console.log(numCount);
-``
+```
 
+</details>
+
+---
+
+##### 6. Tulislah fungsi yang menampilkan kata yang dibalik (reverse)
+
+```javascript
+
+function balikKata(kata) {
+
+  //code
+  
+}
+console.log(balikKata('beca di jalan malioboro'));
+```
+
+<details><summary><b>Solution</b></summary>
+
+```javascript
+
+function balikKata(kata) {
+  return kata.split('').reverse().join('');
+}
+
+console.log(balikKata('beca di jalan malioboro'));
+
+
+```
 </details>
 
 ---
