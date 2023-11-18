@@ -323,6 +323,64 @@ console.log(fizzBuzz(20));
 
 ---
 
+##### 8. Tulislah fungsi untuk cetakSegitigasSiku
+
+```javascript
+
+function cetakSegitigasSiku(tinggi) {
+
+  //code
+  
+}
+console.log(etakSegitigasSiku(5));
+```
+
+<details><summary><b>Solution</b></summary>
+
+```javascript
+jika bintang 1 yg diatas
+function cetakSegitigaSiku(tinggi) {
+  for (let i = 1; i <= tinggi; i++) {
+    let baris = '';
+    for (let j = 1; j <= i; j++) {
+      baris += '*';
+    }
+    console.log(baris);
+  }
+}
+
+console.log(etakSegitigasSiku(5));
+expected
+*
+**
+***
+****
+*****
+
+jika bintang 1 yg dibawah
+function cetakSegitigaSikuBintang(tinggi) {
+  for (let i = tinggi; i >= 1; i--) {
+    let baris = '';
+    for (let j = 1; j <= i; j++) {
+      baris += '*';
+    }
+    console.log(baris);
+  }
+}
+expected
+*****
+****
+***
+**
+*
+
+
+
+```
+</details>
+
+---
+
 
 
 
