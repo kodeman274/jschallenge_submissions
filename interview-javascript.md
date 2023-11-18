@@ -380,6 +380,39 @@ expected
 </details>
 
 ---
+##### 9. Tulislah fungsi untuk isEven(numbers, n), tentukan apakah element atau digit ke n dalam sebuah array deret adalah bilangan genap
+
+```javascript
+
+function cetakSegitigasSiku(tinggi) {
+
+  //code
+  
+}
+console.log(`Apakah angka ke-${n} genap? ${result}`);
+```
+
+<details><summary><b>Solution</b></summary>
+
+```javascript
+function isEven(numbers, n) {
+  return n >= 0 && n < numbers.length && numbers[n] % 2 === 0;
+}
+
+// Contoh penggunaan:
+const deretAngka = [2, 4, 6, 8, 10];
+const n = 2;
+
+const result = isEven(deretAngka, n);
+console.log(`Apakah angka ke-${n} genap? ${result}`);
+
+
+
+```
+</details>
+
+---
+
 
 
 
