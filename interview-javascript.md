@@ -115,7 +115,7 @@ for() {
   //code
   
 }
-console.log({ num_Genap, num_Ganjil }); num_genap : 0,2,4,6,8,.., num_ganjil: 1,3,5,7,9,11,13,..
+console.log({ num_Genap, num_Ganjil }); expected num_genap : 0,2,4,6,8,.., num_ganjil: 1,3,5,7,9,11,13,..
 ```
 
 <details><summary><b>Solution</b></summary>
@@ -157,7 +157,8 @@ for() {
   //code
   
 }
-console.log(num_Prima); expected 
+console.log(num_Prima); expected 2,3,5,7,11,13,17,19,...
+
 ```
 
 <details><summary><b>Solution</b></summary>
