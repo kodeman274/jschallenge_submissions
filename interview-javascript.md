@@ -192,14 +192,13 @@ console.log(num_Prima);
 
 ```javascript
 
-const dataArrayy = [4, 6, 2, 1, , 52, 6, 3, 8, 1, 3, 4, 2];
+const dataArrayy = [9, 3, 6, 4, 2, 5, 6, 3, 1, 2, 7, 8, 8, 6, 5, 22, 7];
 for() {
 
   //code
   
 }
-console.log(numArray);
-console.log(numCount); expected 
+console.log(numArray); expected 9,3,6,4,2,5,1,7,8,22
 ```
 
 <details><summary><b>Solution</b></summary>
@@ -232,10 +231,9 @@ for (let i = 0; i < dataArray.length; i++) {
 }
 console.log(num_Array);
 console.log(num_Array.length);
-console.log(num_Count);
 
 cara lain dengan sedikit memakai perulangan looping
-const dataArrayy = [4, 6, 2, 1, , 52, 6, 3, 8, 1, 3, 4, 2];
+const dataArrayy = [9, 3, 6, 4, 2, 5, 6, 3, 1, 2, 7, 8, 8, 6, 5, 22, 7];
 
 const numCount = {};
 const numArray = [];
@@ -252,7 +250,6 @@ for (let i = 0; i < dataArray.length; i++) {
 }
 
 console.log(numArray);
-console.log(numCount);
 ```
 
 </details>
