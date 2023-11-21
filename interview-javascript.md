@@ -265,7 +265,7 @@ function balikKata(kata) {
   //code
   
 }
-console.log(balikKata('beca di jalan malioboro'));
+console.log(balikKata('beca di jalan malioboro')); expected oroboilam nalaj aceb
 ```
 
 <details><summary><b>Solution</b></summary>
