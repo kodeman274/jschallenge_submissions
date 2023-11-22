@@ -294,6 +294,11 @@ function fizzBuzz(n) {
   
 }
 console.log(fizzBuzz(20));
+expected :
+Jika kelipatan 3 dan 5, cetak fizzbuzz
+jika kelipatan 3 tapi bukan 5 cetak fizz
+jika kelipatan 5 tapi bukan 3, cetak buzz
+id bukan kelipatan 3 atau 5 cetak i
 ```
 
 <details><summary><b>Solution</b></summary>
