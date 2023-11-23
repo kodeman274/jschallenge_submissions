@@ -336,6 +336,12 @@ function cetakSegitigasSiku(tinggi) {
   
 }
 console.log(etakSegitigasSiku(5));
+expected
+*
+**
+***
+****
+*****
 ```
 
 <details><summary><b>Solution</b></summary>
