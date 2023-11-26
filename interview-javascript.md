@@ -423,6 +423,58 @@ console.log(`Apakah angka ke-${n} genap? ${result}`);
 ---
 
 
+##### 10. Tulislah fungsi TwoSum jika arraynya adalah [3, 5, 2, -4, 8, 11] dan jumlahnya 7, program Anda harus mengembalikan [[11, -4], [2, 5]] karena 11 + -4 = 7 dan 2 + 5 = 7
+
+```javascript
+
+function twoSum(arr, S){
+
+  //code
+hint: Pendekatan yang simpel terhadap masalah ini adalah dengan mengulang setiap angka dan kemudian
+mengulangi lagi melalui array 
+  
+}
+console.log(twoSum([3, 5, 2, -4, 8, 11], 7))
+```
+
+<details><summary><b>Solution</b></summary>
+
+```javascript
+// fungsi penjumlahan dua kita yang akan dikembalikan
+// semua pasangan dalam array yang berjumlah S
+function twoSum(arr, S) {
+
+  var sums = [];
+
+// periksa setiap elemen dalam array
+  for (var i = 0; i < arr.length; i++) { 
+
+// tentukan apakah kedua elemen ini berjumlah S
+    for (var j = i + 1; j < arr.length; j++) {
+
+      // tentukan apakah kedua elemen ini berjumlah S
+      if (arr[i] + arr[j] === S) {
+        sums.push([arr[i], arr[j]]);
+      }
+
+    }
+
+  }
+
+  // mengembalikan semua pasangan bilangan bulat yang berjumlah S
+  return sums;
+
+}
+
+
+console.log(twoSum([3, 5, 2, -4, 8, 11], 7))
+
+```
+</details>
+
+---
+
+
 
 
 
