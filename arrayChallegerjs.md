@@ -39,7 +39,7 @@ console.log(myFunction([1,2,3,4,5],3);
 
 </details>
 
-##### 2.Tulis fungsi yang menggunakan array (a) sebagai argumen. Hapus 3 elemen pertama 'a'. Kembalikan hasilnya
+##### 2. Tulis fungsi yang menggunakan array (a) sebagai argumen. Hapus 3 elemen pertama 'a'. Kembalikan hasilnya
 
 
 ```javascript
@@ -65,7 +65,7 @@ console.log(myFunction([1,2,3,4]))
 </details>
 
 ---
-##### 3.Tulis fungsi yang menggunakan array (a) sebagai argumen. Ekstrak 3 elemen terakhir 'a'. Kembalikan array yang dihasilkan
+##### 3. Tulis fungsi yang menggunakan array (a) sebagai argumen. Ekstrak 3 elemen terakhir 'a'. Kembalikan array yang dihasilkan
 
 ```javascript
 function myFunction(a) {
@@ -91,7 +91,7 @@ console.log(myFunction([1,2,3,4]))
 </details>
 
 ---
-##### 4.Tulis fungsi yang menggunakan array (a) sebagai argumen. Ekstrak 3 elemen pertama 'a'. Kembalikan array yang dihasilkan
+##### 4. Tulis fungsi yang menggunakan array (a) sebagai argumen. Ekstrak 3 elemen pertama 'a'. Kembalikan array yang dihasilkan
 
 ```javascript
 function myFunction(a) {
@@ -117,7 +117,7 @@ console.log(myFunction([1,2,3,4]))
 </details>
 
 ---
-##### 5.Tulis fungsi yang menggunakan array (a) dan angka (n) sebagai argumen. Ini harus mengembalikan n elemen terakhir dari a.
+##### 5. Tulis fungsi yang menggunakan array (a) dan angka (n) sebagai argumen. Ini harus mengembalikan n elemen terakhir dari a.
 
 ```javascript
 function myFunction(a,n){
@@ -145,7 +145,7 @@ console.log(myFunction([1,2,3,4]))
 
 </details>
 
-##### 6.Tulis fungsi yang menggunakan array (a) dan nilai (b) sebagai argumen. Fungsi tersebut harus menghapus semua elemen yang sama dengan 'b' dari array. Kembalikan array yang difilter.
+##### 6. Tulis fungsi yang menggunakan array (a) dan nilai (b) sebagai argumen. Fungsi tersebut harus menghapus semua elemen yang sama dengan 'b' dari array. Kembalikan array yang difilter.
 
 ```javascript
 function myFunction(a,b){
@@ -172,7 +172,7 @@ console.log(myFunction([1, 2, '2'],'2'))
 </details>
 
 ---
-##### 7.Tulis fungsi yang menggunakan array (a) sebagai argumen. Mengembalikan jumlah elemen dalam a.
+##### 7. Tulis fungsi yang menggunakan array (a) sebagai argumen. Mengembalikan jumlah elemen dalam a.
 
 ```javascript
 function myFunction(a){
@@ -199,7 +199,7 @@ console.log(myFunction([1,2,2,4]))
 </details>
 
 ---
-##### 8.Tulis fungsi yang menggunakan array angka sebagai argumen. Mengembalikan jumlah nilai negatif dalam array.
+##### 8. Tulis fungsi yang menggunakan array angka sebagai argumen. Mengembalikan jumlah nilai negatif dalam array.
 
 ```javascript
 function myFunction(a){
@@ -235,7 +235,7 @@ console.log(myFunction([1,-2,2,-4]))
 </details>
 
 ---
-##### 9.Tulis fungsi yang menggunakan array string sebagai argumen. Urutkan elemen array berdasarkan abjad. Kembalikan hasilnya.
+##### 9. Tulis fungsi yang menggunakan array string sebagai argumen. Urutkan elemen array berdasarkan abjad. Kembalikan hasilnya.
 
 ```javascript
 function myFunction(arr){
@@ -262,7 +262,7 @@ console.log(myFunction(['b', 'c', 'd', 'a'])
 </details>
 
 ---
-##### 10.Tulis fungsi yang menggunakan array angka sebagai argumen. Ini harus mengembalikan array dengan angka-angka yang diurutkan dalam urutan menurun.
+##### 10. Tulis fungsi yang menggunakan array angka sebagai argumen. Ini harus mengembalikan array dengan angka-angka yang diurutkan dalam urutan menurun.
 
 
 ```javascript
@@ -294,7 +294,7 @@ console.log(myFunction([1,3,2])
 </details>
 
 ---
-##### 11.Tulis fungsi yang menggunakan array angka sebagai argumen. Ini harus mengembalikan jumlah angka.
+##### 11. Tulis fungsi yang menggunakan array angka sebagai argumen. Ini harus mengembalikan jumlah angka.
 
 ```javascript
 function myFunction(a){
@@ -319,7 +319,7 @@ console.log(myFunction([10,100,40])
 </details>
 
 ---
-##### 12.Tulis fungsi yang menggunakan array angka sebagai argumen. Ini harus mengembalikan rata-rata angkanya.
+##### 12. Tulis fungsi yang menggunakan array angka sebagai argumen. Ini harus mengembalikan rata-rata angkanya.
 
 ```javascript
 function myFunction(arr){
@@ -351,7 +351,7 @@ console.log(myFunction([10,100,40])
 </details>
 
 ---
-##### 13.Tulis fungsi yang menggunakan array string sebagai argumen. Kembalikan string terpanjang.
+##### 13. Tulis fungsi yang menggunakan array string sebagai argumen. Kembalikan string terpanjang.
 
 ```javascript
 function myFunction(arr){
@@ -377,7 +377,7 @@ console.log(myFunction(['help', 'me'])
 </details>
 
 ---
-##### 14.Tulis fungsi yang menggunakan array sebagai argumen. Seharusnya mengembalikan nilai true jika semua elemen dalam array sama. Seharusnya mengembalikan false jika tidak.
+##### 14. Tulis fungsi yang menggunakan array sebagai argumen. Seharusnya mengembalikan nilai true jika semua elemen dalam array sama. Seharusnya mengembalikan false jika tidak.
 
 ```javascript
 function myFunction(arr){
@@ -417,7 +417,7 @@ console.log(myFunction([true, true, true, true])
 </details>
 
 ---
-##### 15.Tulis fungsi yang mengambil argumen sejumlah array yang berubah-ubah. Itu harus mengembalikan array yang berisi nilai semua array.
+##### 15. Tulis fungsi yang mengambil argumen sejumlah array yang berubah-ubah. Itu harus mengembalikan array yang berisi nilai semua array.
 
 ```javascript
 function myFunction(...arrays){
@@ -445,7 +445,7 @@ console.log(myFunction([1, 2, 3], [4, 5, 6])
 </details>
 
 ---
-##### 16.Tulis fungsi yang menggunakan array objek sebagai argumen. Urutkan array berdasarkan properti b dalam urutan menaik. Kembalikan array yang diurutkan
+##### 16. Tulis fungsi yang menggunakan array objek sebagai argumen. Urutkan array berdasarkan properti b dalam urutan menaik. Kembalikan array yang diurutkan
 
 ```javascript
 function myFunction(arr){
@@ -470,7 +470,7 @@ console.log(myFunction([{a:1,b:2},{a:5,b:4}])
 </details>
 
 ---
-##### 17.Tulis fungsi yang menggunakan dua array sebagai argumen. Gabung kedua array dan hapus nilai duplikat. Urutkan hasil penggabungan dalam urutan menaik. Kembalikan array yang dihasilkan
+##### 17. Tulis fungsi yang menggunakan dua array sebagai argumen. Gabung kedua array dan hapus nilai duplikat. Urutkan hasil penggabungan dalam urutan menaik. Kembalikan array yang dihasilkan
 
 ```javascript
 function myFunction(a, b){
