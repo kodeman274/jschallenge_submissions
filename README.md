@@ -7,7 +7,7 @@
   <h1>JS Submissions Solutions</h1>
 </div>
 
-##### 1. Tulislah fungsi yang menggunakan dua bilangan (a dan b) sebagai argumen. Jumlah a dan b. Kembalikan hasilnya
+##### 1. Tulislah fungsi yang menggunakan dua bilangan (a dan b) sebagai argumen. Jumlahkan a dan b. Kembalikan hasilnya
 
 
 ```javascript
