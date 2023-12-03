@@ -105,7 +105,7 @@ console.log(num_Fibonannacci);
 </details>
 
 ---
-##### 3. Tulislah perulangan yang memisahkan angka genap dan ganjil sampai 100
+##### 3. Tulislah perulangan yang memisahkan angka genap dan ganjil sampai 100 kmmbalikan hasilnya
 
 ```javascript
 
