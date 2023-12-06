@@ -7,7 +7,7 @@
   <h1>JS Submissions Solutions</h1>
 </div>
 
-##### 1. Tulis fungsi yang menggunakan array (a) dan nilai (n) sebagai argumen. Kembalikan elemen ke-n dari 'a'
+##### 1. Tulis fungsi yang menggunakan array (a) dan nilai (n) sebagai argumen. kemudian Kembalikan elemen ke-n dari 'a'
 
 ```javascript
 function myFunction(a, n) {
