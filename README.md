@@ -225,7 +225,7 @@ console.log(myFunction('abcdefgh'));
 </details>
 
 ---
-##### 10.Tulis fungsi yang menggunakan string (a) sebagai argumen. Hapus 3 karakter terakhir dari a. Kembalikan hasilnya
+##### 10.Tulis fungsi yang menggunakan string (a) sebagai argumen dan Hapus 3 karakter terakhir dari a. Kembalikan hasilnya
 
 
 ```javascript
