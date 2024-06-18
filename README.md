@@ -1,4 +1,5 @@
 # JAVASCRIPT FUNDAMENTALS for JS Submissions Solution interview questions
+**Do the problem first until it's finished, if you don't get results, then learn the steps to do it**
 
 <div align="center">
   <img height="60" src="https://img.icons8.com/color/344/javascript.png">
