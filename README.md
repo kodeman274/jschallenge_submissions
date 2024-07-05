@@ -128,7 +128,7 @@ console.log(myFunction('abcdefg'));
 </details>
 
 ---
-##### 6.Tulis fungsi yang menggunakan string sebagai argumen. Ekstrak 3 karakter terakhir dari string. Kembalikan hasilnya
+##### 6. Tulis fungsi yang menggunakan string sebagai argumen. Ekstrak 3 karakter terakhir dari string. Kembalikan hasilnya
 
 
 ```javascript
@@ -152,7 +152,7 @@ console.log(myFunction('abcdefg'));
 </details>
 
 ---
-##### 7.Tulis fungsi yang menggunakan string (a) sebagai argumen. Dapatkan 3 karakter pertama dari a. Kembalikan hasilnya
+##### 7. Tulis fungsi yang menggunakan string (a) sebagai argumen. Dapatkan 3 karakter pertama dari a. Kembalikan hasilnya
 
 
 ```javascript
@@ -176,7 +176,7 @@ console.log(myFunction('abcdefg'));
 </details>
 
 ---
-##### 8.Tulis fungsi yang menggunakan string sebagai argumen. String berisi substring 'is'. Kembalikan indeks 'is'.
+##### 8. Tulis fungsi yang menggunakan string sebagai argumen. String berisi substring 'is'. Kembalikan indeks 'is'.
 
 
 ```javascript
@@ -201,7 +201,7 @@ console.log(myFunction('praise'));
 </details>
 
 ---
-##### 9.Tulis fungsi yang menggunakan string (a) sebagai argumen. Ekstrak bagian pertama a. Kembalikan hasilnya
+##### 9. Tulis fungsi yang menggunakan string (a) sebagai argumen. Ekstrak bagian pertama a. Kembalikan hasilnya
 
 
 ```javascript
@@ -226,7 +226,7 @@ console.log(myFunction('abcdefgh'));
 </details>
 
 ---
-##### 10.Tulis fungsi yang menggunakan string (a) sebagai argumen dan Hapus 3 karakter terakhir dari a. Kembalikan hasilnya
+##### 10. Tulis fungsi yang menggunakan string (a) sebagai argumen dan Hapus 3 karakter terakhir dari a. Kembalikan hasilnya
 
 
 ```javascript
@@ -252,7 +252,7 @@ console.log(myFunction('abcdefgh'));
 
 ---
 
-##### 11.Tulislah fungsi yang menggunakan dua bilangan (a dan b) sebagai argumen. Kembalikan b persen dari a
+##### 11. Tulislah fungsi yang menggunakan dua bilangan (a dan b) sebagai argumen. Kembalikan b persen dari a
 
 
 ```javascript
@@ -277,7 +277,7 @@ console.log(myFunction(100, 50));
 </details>
 
 ---
-##### 12.Tulis fungsi yang mengambil 6 nilai (a,b,c,d,e,f) sebagai argumen. Jumlah a dan b. Kemudian kurangi dengan c. Kemudian kalikan dengan d dan bagi dengan e. Terakhir, naikkan ke pangkat f dan kembalikan hasilnya. 
+##### 12. Tuliskan fungsi yang mengambil 6 nilai (a,b,c,d,e,f) sebagai argumen. Jumlah a dan b. Kemudian kurangi dengan c. Kemudian kalikan dengan d dan bagi dengan e. Terakhir, naikkan ke pangkat f dan kembalikan hasilnya. 
 
 
 ```javascript
@@ -303,7 +303,7 @@ console.log(myFunction(6,2,1,4,2,3))
 </details>
 
 ---
-##### 13.Tulis fungsi yang menggunakan dua string (a dan b) sebagai argumen. Jika a berisi b, tambahkan b ke awal a. Jika tidak, tambahkan sampai akhir. Kembalikan rangkaiannya
+##### 13. Tuliskan fungsi yang menggunakan dua string (a dan b) sebagai argumen. Jika a berisi b, tambahkan b ke awal a. Jika tidak, tambahkan sampai akhir. Kembalikan rangkaiannya
 
 
 ```javascript
@@ -328,7 +328,7 @@ console.log(myFunction('cheese', 'cake'));
 </details>
 
 ---
-##### 14.Tulis fungsi yang menggunakan angka sebagai argumen. Jika angkanya genap, kembalikan nilai true. Jika tidak, kembalikan salah
+##### 14. Tuliskan fungsi yang menggunakan angka sebagai argumen. Jika angkanya genap, kembalikan nilai true. Jika tidak, kembalikan salah
 
 
 ```javascript
@@ -353,7 +353,7 @@ console.log(myFunction(10);
 </details>
 
 ---
-##### 15.Tulis fungsi yang menggunakan dua string (a dan b) sebagai argumen. Mengembalikan berapa kali a muncul di b.
+##### 15. Tuliskan fungsi yang menggunakan dua string (a dan b) sebagai argumen. Mengembalikan berapa kali a muncul di b.
 
 
 ```javascript
@@ -379,7 +379,7 @@ console.log(myFunction('m', 'how many times does the character occur in this sen
 </details>
 
 ---
-##### 16.Tulislah fungsi yang menggunakan angka (a) sebagai argumen. Jika a adalah bilangan bulat (tidak memiliki tempat desimal), hasilnya benar. Jika tidak, kembalikan salah.
+##### 16. Tuliskan fungsi yang menggunakan angka (a) sebagai argumen. Jika a adalah bilangan bulat (tidak memiliki tempat desimal), hasilnya benar. Jika tidak, kembalikan salah.
 
 ```javascript
 function myFunction(a) {
@@ -403,7 +403,7 @@ console.log(myFunction(4))
 </details>
 
 ---
-##### 17.Tulislah fungsi yang menggunakan dua bilangan (a dan b) sebagai argumen. Jika a lebih kecil dari b, bagilah a dengan b. Jika tidak, kalikan kedua angka tersebut. Kembalikan nilai yang dihasilkan
+##### 17. Tuliskan fungsi yang menggunakan dua bilangan (a dan b) sebagai argumen. Jika a lebih kecil dari b, bagilah a dengan b. Jika tidak, kalikan kedua angka tersebut. Kembalikan nilai yang dihasilkan
 
 ```javascript
 function myFunction(a,b) {
@@ -428,7 +428,7 @@ console.log(myFunction(10, 100))
 </details>
 
 ---
-##### 18.Tulislah fungsi yang menggunakan angka (a) sebagai argumen. Bulatkan a sampai angka ke-2 setelah koma. Kembalikan angka yang dibulatkan
+##### 18. Tuliskan fungsi yang menggunakan angka (a) sebagai argumen. Bulatkan a sampai angka ke-2 setelah koma. Kembalikan angka yang dibulatkan
 
 ```javascript
 function myFunction(a) {
@@ -453,7 +453,7 @@ console.log(myFunction(2.12397))
 </details>
 
 ---
-##### 19.Tulislah fungsi yang menggunakan angka (a) sebagai argumen. Pisahkan a menjadi masing-masing digit dan kembalikan dalam array.
+##### 19. Tuliskan fungsi yang menggunakan angka (a) sebagai argumen. Pisahkan a menjadi masing-masing digit dan kembalikan dalam array.
 
 ```javascript
 function myFunction(a) {
