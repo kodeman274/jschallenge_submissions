@@ -8,7 +8,7 @@
   <h1>JS Submissions Solutions</h1>
 </div>
 
-##### 1. Tulis fungsi yang menggunakan dua bilangan (a dan b) sebagai argumen. Jumlahkan a dan b. Kembalikan hasilnya
+##### 1. Tuliskan fungsi yang menggunakan dua bilangan (a dan b) sebagai argumen. Jumlahkan a dan b. Kembalikan hasilnya
 
 
 ```javascript
@@ -32,7 +32,7 @@ console.log(myFunction(1,10));
 </details>
 
 ---
-##### 2. Tulis fungsi yang mengambil dua nilai, katakanlah a dan b, sebagai argumen. Mengembalikan nilai benar jika kedua nilai sama dan bertipe sama
+##### 2. Tuliskan fungsi yang mengambil dua nilai, katakanlah a dan b, sebagai argumen. Mengembalikan nilai benar jika kedua nilai sama dan bertipe sama
 
 
 ```javascript
@@ -56,7 +56,7 @@ console.log(myFunction(3,3));
 </details>
 
 ---
-##### 3. Tulis fungsi yang mengambil nilai sebagai argumen. Kembalikan jenis nilainya.
+##### 3. Tuliskan fungsi yang mengambil nilai sebagai argumen. Kembalikan jenis nilainya.
 
 
 ```javascript
@@ -80,7 +80,7 @@ console.log(myFunction(true));
 </details>
 
 ---
-##### 4. Tulis fungsi yang menggunakan string (a) dan angka (n) sebagai argumen. Kembalikan karakter ke-n dari 'a'.
+##### 4. Tuliskan fungsi yang menggunakan string (a) dan angka (n) sebagai argumen. Kembalikan karakter ke-n dari 'a'.
 
 
 ```javascript
@@ -104,7 +104,7 @@ console.log(myFunction('abcd'));
 </details>
 
 ---
-##### 5. Tulis fungsi yang menggunakan string (a) sebagai argumen. Hapus 3 karakter pertama dari a. Kembalikan hasilnya
+##### 5. Tuliskan fungsi yang menggunakan string (a) sebagai argumen. Hapus 3 karakter pertama dari a. Kembalikan hasilnya
 
 
 ```javascript
@@ -128,7 +128,7 @@ console.log(myFunction('abcdefg'));
 </details>
 
 ---
-##### 6. Tulis fungsi yang menggunakan string sebagai argumen. Ekstrak 3 karakter terakhir dari string. Kembalikan hasilnya
+##### 6. Tuliskan fungsi yang menggunakan string sebagai argumen. Ekstrak 3 karakter terakhir dari string. Kembalikan hasilnya
 
 
 ```javascript
@@ -152,7 +152,7 @@ console.log(myFunction('abcdefg'));
 </details>
 
 ---
-##### 7. Tulis fungsi yang menggunakan string (a) sebagai argumen. Dapatkan 3 karakter pertama dari a. Kembalikan hasilnya
+##### 7. Tuliskan fungsi yang menggunakan string (a) sebagai argumen. Dapatkan 3 karakter pertama dari a. Kembalikan hasilnya
 
 
 ```javascript
@@ -176,7 +176,7 @@ console.log(myFunction('abcdefg'));
 </details>
 
 ---
-##### 8. Tulis fungsi yang menggunakan string sebagai argumen. String berisi substring 'is'. Kembalikan indeks 'is'.
+##### 8. Tuliskan fungsi yang menggunakan string sebagai argumen. String berisi substring 'is'. Kembalikan indeks 'is'.
 
 
 ```javascript
@@ -201,7 +201,7 @@ console.log(myFunction('praise'));
 </details>
 
 ---
-##### 9. Tulis fungsi yang menggunakan string (a) sebagai argumen. Ekstrak bagian pertama a. Kembalikan hasilnya
+##### 9. Tuliskan fungsi yang menggunakan string (a) sebagai argumen. Ekstrak bagian pertama a. Kembalikan hasilnya
 
 
 ```javascript
@@ -226,7 +226,7 @@ console.log(myFunction('abcdefgh'));
 </details>
 
 ---
-##### 10. Tulis fungsi yang menggunakan string (a) sebagai argumen dan Hapus 3 karakter terakhir dari a. Kembalikan hasilnya
+##### 10. Tuliskan fungsi yang menggunakan string (a) sebagai argumen dan Hapus 3 karakter terakhir dari a. Kembalikan hasilnya
 
 
 ```javascript
@@ -252,7 +252,7 @@ console.log(myFunction('abcdefgh'));
 
 ---
 
-##### 11. Tulislah fungsi yang menggunakan dua bilangan (a dan b) sebagai argumen. Kembalikan b persen dari a
+##### 11. Tuliskan fungsi yang menggunakan dua bilangan (a dan b) sebagai argumen. Kembalikan b persen dari a
 
 
 ```javascript
